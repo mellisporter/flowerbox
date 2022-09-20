@@ -1,11 +1,11 @@
 function Nav() {
     return(
-        <ul type="none">
+        <ul type="none" class="navbar">
             <li>about</li>
             <li>collections</li>
             <li>delivery service</li>
             <li>location</li>
-            <li>contact us</li>
+            <li>contact us</li>   
         </ul>
     )
 }

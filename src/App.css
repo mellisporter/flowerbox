@@ -1,13 +1,14 @@
 .flowerbox {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr 2fr 2fr 2fr 1fr;
 }
 
 .logo {
   grid-row: 2/3;
   grid-column: 1/4;
   background-image: url("https://i.imgur.com/U8tiT5X.png");
+  background-size: cover;
 }
 
 .product {
@@ -28,6 +29,13 @@
   width: 100%;
   background-color: bisque;
   grid-column: 1/4;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
 }
 
 
