@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Flowerbox from "./components/Flowerbox";
 
 function App() {
   return (
-   <p1>Hi</p1>
+   <Flowerbox/>
   );
 }
 
